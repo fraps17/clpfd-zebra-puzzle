@@ -1,5 +1,5 @@
 :-use_module(library(clpfd)).
-zebra(Vars):-
+zebra(Water,Zebra):-
 /* Variables*/
 Vars=[English,Spaniard,Ukrainian,Japanese,Norwegian,
 Red,Green,Yellow,Blue,Ivory,
@@ -42,5 +42,4 @@ all_different([Red,Green,Yellow,Blue,Ivory]),
 all_different([Coffee,Water,Milk,OrangeJuice,Tea]),
 all_different([Dog,Fox,Horse,Snails,Zebra]),
 all_different([Chesterfields,LuckyStrike,Parliaments,Kools,OldGold]),
-label(Vars),writeln(Water),writeln(Zebra).
-
+label(Vars).
